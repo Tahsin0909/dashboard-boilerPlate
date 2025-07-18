@@ -1,12 +1,12 @@
-import RouterProvider from './routes'
+import ReduxProvider from "./redux/Provider";
+import RouterProvider from "./routes";
 
 function App() {
-
   return (
-    <>
+    <ReduxProvider>
       <RouterProvider />
-    </>
-  )
+    </ReduxProvider>
+  );
 }
 
-export default App
+export default App;
